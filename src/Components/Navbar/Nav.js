@@ -13,7 +13,7 @@ function Nav()
                     <option value="mal">Malayalam</option>
                 </select>
                 </li>
-                <li><button className='login'>Sign in</button></li>
+                <li><button className='login'>Back</button></li>
             </ul>
         </div>
     )

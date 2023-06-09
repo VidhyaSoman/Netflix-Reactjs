@@ -7,9 +7,67 @@
 
 .banner
 {
-    /* height: 100px; */
-    width: 100%;
+    width: 130%;
     height: 380px;
     margin-top: 15px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://assets.nflxext.com/ffe/siteui/vlv3/73334647-ad51-42a9-b07b-93298cc2a8e1/2b0fca4f-c15c-4622-9efc-572c4a408c30/IN-en-20230605-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
+.bannerimg
+{
+    height: 380px;
+    width: 100%;
+    position: absolute;
+}
+.film-Name
+{
+    position: absolute;
+    left: 60px;
+    top: 130px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    width: auto;
+    text-shadow: 3px 3px 3px black;
+}
+
+.description
+{
+    color: white;
+    left: 60px;
+    position: absolute;
+    margin-bottom: 270px;
+    top: 180px;
+    width: 30%;
+    font-size:14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 3px 3px black;
+}
+.play
+{
+    position: absolute;
+    right:1220px;
+    top: 300px;
+    padding: 5px;
+    width: 70px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+}
+.add
+{
+    position: absolute;
+    right:1150px;
+    top: 300px;
+    padding: 7px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+}
+.Utub
+{
+    z-index: 1;
+}
+
+

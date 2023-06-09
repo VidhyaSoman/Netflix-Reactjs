@@ -36,7 +36,8 @@ ul{
     width: 150px;
     height: 40px;
     border-radius: 8px;
-    margin-left: 850px;
+    left: 980px;
+    position: absolute;
 }
 .login
 {
@@ -50,7 +51,8 @@ ul{
     height: 40px;
     border-radius: 8px;
     cursor: pointer;
-    margin-left: 20px;
+    left: 1150px;
+    position: absolute;
 }
 a{
     text-decoration: none;
