@@ -13,7 +13,7 @@ function Nav()
                     <option value="mal">Malayalam</option>
                 </select>
                 </li>
-                <li><button className='login'>Back</button></li>
+                <li><a className='login' href='./App'>Back</a></li>
             </ul>
         </div>
     )

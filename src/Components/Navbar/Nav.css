@@ -44,11 +44,11 @@ ul{
     background-color: rgb(247, 13, 13);
     color: white;
     font-size: larger;
-    /* font-weight: bold; */
-    border: none;
+    font-weight: bold;
     float: right;
-    width: 100px;
-    height: 40px;
+    padding: 7px;
+    width: 70px;
+    text-align: center;
     border-radius: 8px;
     cursor: pointer;
     left: 1150px;
